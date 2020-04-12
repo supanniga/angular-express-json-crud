@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Harry Potter 1",
+        "price": 450
+    },
+    {
+        "id": "2",
+        "name": "Harry Potter 2",
+        "price": 550
+    },
+    {
+        "id": "3",
+        "name": "Harry Potter 3",
+        "price": 650
+    },
+    {
+        "id": "4",
+        "name": "Harry Potter 4",
+        "price": 750
+    }
+]

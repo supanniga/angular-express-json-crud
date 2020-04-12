@@ -1,0 +1,13 @@
+<div class="text-right">
+  <button type="button" class="btn btn-primary mb-3" [routerLink]="['/add']">Add new Book</button>
+</div>
+<div>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let book of bookList">
+      {{book.name}}
+      <button type="button" class="btn btn-danger float-right m-2" (click)="deleteBookObjById(book.id)">Delete</button>
+      <button type="button" class="btn btn-warning float-right m-2" [routerLink]="['/edit', book.id]">Edit</button>
+      <button type="button" class="btn btn-success float-right m-2" [routerLink]="['/view', book.id]">View</button>
+    </li>
+  </ul>
+</div>
